@@ -295,7 +295,7 @@ text-align: center;
 Responsive for mobile device 
 -----------------------------------*/
 
-@media only screen and (max-width: 688px){
+@media only screen and (max-width: 576px){
     .navbar{
         padding: 0 10px;
     }
@@ -324,13 +324,17 @@ Responsive for mobile device
         grid-template-columns: repeat(1,1fr);
         gap:50px
     }
-   
+    .expericene-img{
+        display: flex;
+        flex-direction: column;
+    }
      .special-btn{
-        bottom: -195px;
-        left: 20px; 
+        margin:  10px;
+        position: static; 
+      
         
     } 
-
+   
     .fact{
         margin-top: 200px;
     }
